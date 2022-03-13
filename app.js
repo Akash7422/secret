@@ -18,7 +18,7 @@ const userSchema =new mongoose.Schema( {
   email: String,
   password: String
 });
-//Added comments
+//Added comments11111
 userSchema.plugin(encrypt, { secret: process.env.SECRET, encryptedFields:["password"] });
 
 // console.log(process.env.API_KEY);
